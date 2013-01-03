@@ -1,0 +1,5 @@
+name:  notes
+description:  A sample application
+
+dependencies:
+  web_ui: any
