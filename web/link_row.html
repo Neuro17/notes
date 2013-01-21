@@ -9,21 +9,25 @@ BSD-style license that can be found in the LICENSE file.
   <link rel="components" href="editable_label.html">
 </head>
 <body>
-<element name="x-todo-row" extends="li" apply-author-styles>
+<element name="x-link-row" extends="li" apply-author-styles>
   <template>
     <!--<div class="todo-item {{_editingClass}} {{_completedClass}}">--> 
     <div class="todo-item">
       <!--<input class="toggle" type="checkbox" bind-checked="todo.done">-->
      <template if="link.letto">
-        <x-editable-label id="label1" bind-value="link.task" bind-titolo="link.titolo"></x-editable-label>
+        <x-editable-label id="label1" bind-value="link.link" bind-titolo="link.titolo"></x-editable-label>
         <button class="destroy" on-click="app.removeTodo(link)">remove</button>
         <button class="unread" on-click="app.setRead(link)">unread</button>
+        <button class="unread" on-click="app.setRead(link)">edit</button>
+        <label> {{link.creationTime}} </label>
         <!--<input class="toggle" type="checkbox" bind-checked="app.aggiungiPreferiti(link)">-->
      </template>
      <template if="!(link.letto)">
-        <Strong><x-editable-label id="label2" bind-value="link.task" bind-titolo="link.titolo"></x-editable-label></Strong>
+        <Strong><x-editable-label id="label2" bind-value="link.link" bind-titolo="link.titolo"></x-editable-label></Strong>
         <button class="destroy" on-click="app.removeTodo(link)">remove</button>
-        <button class="unread" on-click="app.setRead(link)">read</button>
+        <button class="unread" on-click="app.setRead(link)">read</button>      
+        <button class="unread" on-click="app.setEdit(link)">edit</button>  
+        <label> {{link.creationTime}} </label>
         <!--<input class="toggle" type="checkbox" bind-checked="app.setRead(link)">-->
      </template>
     </div>
@@ -32,7 +36,7 @@ BSD-style license that can be found in the LICENSE file.
   import 'package:web_ui/web_ui.dart';
   import 'model.dart';
 
-  class TodoRow extends WebComponent {
+  class LinkRow extends WebComponent {
     Link link;
    
     //bool get editing => _root.query('#label').xtag.editing;

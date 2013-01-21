@@ -8,8 +8,8 @@ BSD-style license that can be found in the LICENSE file.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="components" href="router_options.html">
-  <link rel="components" href="todo_row.html">
+  <!--<link rel="components" href="router_options.html">-->
+  <link rel="components" href="link_row.html">
   <link rel="components" href="add_link.html">
   <link rel="stylesheet" href="base.css">
   
@@ -20,13 +20,15 @@ BSD-style license that can be found in the LICENSE file.
     <header id="header">
       <h1 class='title'>notes</h1>
       
-      <x-addLink-div>dsdadasdfaf </x-addLink-div>
+      <x-addLink-div></x-addLink-div>
       
       <!--<form on-submit="addTodo($event)">-->
-        <input id="new-todo" placeholder="Link" autofocus>
+        <!--<input id="new-todo" placeholder="Link" autofocus>
                
-        <input id="new-titolo" placeholder="Titolo">
-        <button class="unread" on-click="addTodo($event)">+ Add Link</button>
+        <input id="new-titolo" placeholder="Title">
+        <button class="unread" on-click="addTodo($event)">+ Add Link</button>-->
+        <button class="unread" id="createNewLink" on-click="addTodo($event)">Create new link</button>
+        <button class="unread" id="refresh">Refresh</button>
       <!--</form>-->
     </header>
     <section id="main">
@@ -35,7 +37,7 @@ BSD-style license that can be found in the LICENSE file.
       <ul id="todo-list">
         <template iterate="x in app.links">
           
-            <x-todo-row link="{{x}}"> </x-todo-row>
+            <x-link-row link="{{x}}"> </x-link-row>
           
             
         </template>

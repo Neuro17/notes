@@ -5,8 +5,9 @@
 library model;
 
 class ViewModel {
-  bool isVisible(Link link) => link != null &&
-      ((showIncomplete && !link.done) || (showDone && link.done));
+  bool isVisible(Link link) => link != null;
+//  &&
+//      ((showIncomplete && !link.done) || (showDone && link.done));
 
   bool showIncomplete = true;
 
@@ -21,7 +22,6 @@ final ViewModel viewModel = new ViewModel();
 
 class AppModel {
   List<Link> links = <Link>[];
-  List<Link> preferiti = <Link>[];
 
   // TODO(jmesserly): remove this once List has a remove method.
   void removeTodo(Link link) {
@@ -41,11 +41,16 @@ class AppModel {
     }
   }
   
-  void aggiungiPreferiti(Link link) {
-    preferiti.add(link);
+  void setEdit(Link link) {
+    var index = links.indexOf(link);
+    if (index != -1) {
+        if(!links[index].editing) {
+          links[index].editing = true;
+        }
+        else links[index].letto = false;
+    }
   }
-  
- 
+   
 
 //  bool get allChecked => todos.length > 0 && todos.every((t) => t.done);
 //
@@ -67,13 +72,20 @@ class AppModel {
 final AppModel app = new AppModel();
 
 class Link {
-  String task;
-  bool done = false;
+  String link;
+//  bool done = false;
   String titolo;
   bool letto = true;
-  var nomeBtn = "unread";
+  bool editing = false;
+  
+  
+  int creationDay = new Date.now().day;
+  int creationMonth = new Date.now().month;
+  int crationYear = new Date.now().year;
+  
+  Date creationTime = new Date.now();
 
-  Link(this.task, this.titolo);
+  Link(this.link, this.titolo);
   
 //  String toString() => "$task ${done ? '(done)' : '(not done)'}";
 }
