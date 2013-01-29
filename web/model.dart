@@ -12,7 +12,7 @@ class ViewModel {
   bool showIncomplete = true;
 
   bool showDone = true;
-  
+
 //  bool isRead(Link link) => link.letto;
 }
 
@@ -30,27 +30,29 @@ class AppModel {
       links.removeRange(index, 1);
     }
   }
-  
+
   void setRead(Link link) {
     var index = links.indexOf(link);
     if (index != -1) {
         if(links[index].letto) {
           links[index].letto = false;
         }
-        else links[index].letto = true;
+        else { links[index].letto = true;
+        }
     }
   }
-  
+
   void setEdit(Link link) {
     var index = links.indexOf(link);
     if (index != -1) {
         if(!links[index].editing) {
           links[index].editing = true;
         }
-        else links[index].letto = false;
+        else { links[index].letto = false;
+        }
     }
   }
-   
+
 
 //  bool get allChecked => todos.length > 0 && todos.every((t) => t.done);
 //
@@ -77,15 +79,15 @@ class Link {
   String titolo;
   bool letto = true;
   bool editing = false;
-  
-  
+
+
   int creationDay = new Date.now().day;
   int creationMonth = new Date.now().month;
   int crationYear = new Date.now().year;
-  
+
   Date creationTime = new Date.now();
 
   Link(this.link, this.titolo);
-  
+
 //  String toString() => "$task ${done ? '(done)' : '(not done)'}";
 }

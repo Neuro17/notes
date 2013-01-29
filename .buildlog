@@ -293,3 +293,1147 @@ original stack trace:
 #71     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
 build.dart finished [1477 ms]
 
+---
+build.dart --changed=pubspec.lock --changed=pubspec.yaml --changed=web\add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:874:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete.complete (bootstrap:949:26)
+#48     _FutureImpl._complete (bootstrap:840:19)
+#49     _FutureImpl._complete (bootstrap:848:5)
+#50     _FutureImpl._setValue (bootstrap:862:14)
+#51     _CompleterImpl.complete.complete (bootstrap:949:26)
+#52     _FutureImpl._complete (bootstrap:840:19)
+#53     _FutureImpl._complete (bootstrap:848:5)
+#54     _FutureImpl._setValue (bootstrap:862:14)
+#55     _CompleterImpl.complete (bootstrap:949:26)
+#56     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete.complete (bootstrap:949:26)
+#61     _FutureImpl._complete (bootstrap:840:19)
+#62     _FutureImpl._complete (bootstrap:848:5)
+#63     _FutureImpl._setValue (bootstrap:862:14)
+#64     _CompleterImpl.complete (bootstrap:949:26)
+#65     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#71     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [2845 ms]
+
+---
+build.dart --changed=pubspec.lock --changed=pubspec.yaml --changed=web\add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:874:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete.complete (bootstrap:949:26)
+#48     _FutureImpl._complete (bootstrap:840:19)
+#49     _FutureImpl._complete (bootstrap:848:5)
+#50     _FutureImpl._setValue (bootstrap:862:14)
+#51     _CompleterImpl.complete.complete (bootstrap:949:26)
+#52     _FutureImpl._complete (bootstrap:840:19)
+#53     _FutureImpl._complete (bootstrap:848:5)
+#54     _FutureImpl._setValue (bootstrap:862:14)
+#55     _CompleterImpl.complete (bootstrap:949:26)
+#56     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete.complete (bootstrap:949:26)
+#61     _FutureImpl._complete (bootstrap:840:19)
+#62     _FutureImpl._complete (bootstrap:848:5)
+#63     _FutureImpl._setValue (bootstrap:862:14)
+#64     _CompleterImpl.complete (bootstrap:949:26)
+#65     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#71     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [2548 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:874:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete.complete (bootstrap:949:26)
+#48     _FutureImpl._complete (bootstrap:840:19)
+#49     _FutureImpl._complete (bootstrap:848:5)
+#50     _FutureImpl._setValue (bootstrap:862:14)
+#51     _CompleterImpl.complete.complete (bootstrap:949:26)
+#52     _FutureImpl._complete (bootstrap:840:19)
+#53     _FutureImpl._complete (bootstrap:848:5)
+#54     _FutureImpl._setValue (bootstrap:862:14)
+#55     _CompleterImpl.complete (bootstrap:949:26)
+#56     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete.complete (bootstrap:949:26)
+#61     _FutureImpl._complete (bootstrap:840:19)
+#62     _FutureImpl._complete (bootstrap:848:5)
+#63     _FutureImpl._setValue (bootstrap:862:14)
+#64     _CompleterImpl.complete (bootstrap:949:26)
+#65     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#71     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1784 ms]
+
+---
+build.dart --changed=notes.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:874:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete.complete (bootstrap:949:26)
+#48     _FutureImpl._complete (bootstrap:840:19)
+#49     _FutureImpl._complete (bootstrap:848:5)
+#50     _FutureImpl._setValue (bootstrap:862:14)
+#51     _CompleterImpl.complete.complete (bootstrap:949:26)
+#52     _FutureImpl._complete (bootstrap:840:19)
+#53     _FutureImpl._complete (bootstrap:848:5)
+#54     _FutureImpl._setValue (bootstrap:862:14)
+#55     _CompleterImpl.complete (bootstrap:949:26)
+#56     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete.complete (bootstrap:949:26)
+#61     _FutureImpl._complete (bootstrap:840:19)
+#62     _FutureImpl._complete (bootstrap:848:5)
+#63     _FutureImpl._setValue (bootstrap:862:14)
+#64     _CompleterImpl.complete (bootstrap:949:26)
+#65     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#71     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [2066 ms]
+
+---
+build.dart --changed=web\main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:874:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete.complete (bootstrap:949:26)
+#48     _FutureImpl._complete (bootstrap:840:19)
+#49     _FutureImpl._complete (bootstrap:848:5)
+#50     _FutureImpl._setValue (bootstrap:862:14)
+#51     _CompleterImpl.complete.complete (bootstrap:949:26)
+#52     _FutureImpl._complete (bootstrap:840:19)
+#53     _FutureImpl._complete (bootstrap:848:5)
+#54     _FutureImpl._setValue (bootstrap:862:14)
+#55     _CompleterImpl.complete (bootstrap:949:26)
+#56     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete.complete (bootstrap:949:26)
+#61     _FutureImpl._complete (bootstrap:840:19)
+#62     _FutureImpl._complete (bootstrap:848:5)
+#63     _FutureImpl._setValue (bootstrap:862:14)
+#64     _CompleterImpl.complete (bootstrap:949:26)
+#65     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#71     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1355 ms]
+
+---
+build.dart --removed=notes.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Unhandled exception:
+FutureUnhandledException: exception while executing Future
+  NoSuchMethodError : method not found: 'add'
+  Receiver: null
+  Arguments: [" '"]
+original stack trace:
+  #0      Object._noSuchMethod (dart:core-patch:1360:3)
+  #1      Object.noSuchMethod (dart:core-patch:1361:25)
+  #2      directiveText (package:web_ui/src/codegen.dart:146:11)
+  #3      MainPageEmitter.run (package:web_ui/src/emitters.dart:874:40)
+  #4      Compiler._emitMainDart (package:web_ui/src/compiler.dart:223:53)
+  #5      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:207:24)
+  #6      time (package:web_ui/src/utils.dart:37:24)
+  #7      Compiler._time (package:web_ui/src/compiler.dart:282:16)
+  #8      Compiler._emit (package:web_ui/src/compiler.dart:202:12)
+  #9      Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:92:12)
+  #10     _FutureImpl.transform.<anonymous closure> (bootstrap:881:37)
+  
+#0      _FutureImpl._complete (bootstrap:844:11)
+#1      _FutureImpl._complete (bootstrap:848:5)
+#2      _FutureImpl._setException (bootstrap:873:14)
+#3      _CompleterImpl.completeException (bootstrap:952:30)
+#4      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#5      _FutureImpl._complete (bootstrap:832:22)
+#6      _FutureImpl._complete (bootstrap:848:5)
+#7      _FutureImpl._setException (bootstrap:873:14)
+#8      _CompleterImpl.completeException (bootstrap:952:30)
+#9      _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#10     _FutureImpl._complete (bootstrap:832:22)
+#11     _FutureImpl._complete (bootstrap:848:5)
+#12     _FutureImpl._setException (bootstrap:873:14)
+#13     _CompleterImpl.completeException (bootstrap:952:30)
+#14     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#15     _FutureImpl._complete (bootstrap:832:22)
+#16     _FutureImpl._complete (bootstrap:848:5)
+#17     _FutureImpl._setException (bootstrap:873:14)
+#18     _CompleterImpl.completeException (bootstrap:952:30)
+#19     _FutureImpl._forwardException.<anonymous closure> (bootstrap:936:34)
+#20     _FutureImpl._complete (bootstrap:832:22)
+#21     _FutureImpl._complete (bootstrap:848:5)
+#22     _FutureImpl._setException (bootstrap:873:14)
+#23     _CompleterImpl.completeException (bootstrap:952:30)
+#24     _FutureImpl.transform.<anonymous closure> (bootstrap:884:36)
+#25     _FutureImpl._complete (bootstrap:840:19)
+#26     _FutureImpl._complete (bootstrap:848:5)
+#27     _FutureImpl._setValue (bootstrap:862:14)
+#28     _CompleterImpl.complete (bootstrap:949:26)
+#29     FutureGroup._watchTask.<anonymous closure> (package:web_ui/src/utils.dart:146:28)
+#30     _FutureImpl._complete (bootstrap:840:19)
+#31     _FutureImpl._complete (bootstrap:848:5)
+#32     _FutureImpl._setValue (bootstrap:862:14)
+#33     _CompleterImpl.complete (bootstrap:949:26)
+#34     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#35     _FutureImpl._complete (bootstrap:840:19)
+#36     _FutureImpl._complete (bootstrap:848:5)
+#37     _FutureImpl._setValue (bootstrap:862:14)
+#38     _CompleterImpl.complete.complete (bootstrap:949:26)
+#39     _FutureImpl._complete (bootstrap:840:19)
+#40     _FutureImpl._complete (bootstrap:848:5)
+#41     _FutureImpl._setValue (bootstrap:862:14)
+#42     _CompleterImpl.complete (bootstrap:949:26)
+#43     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#44     _FutureImpl._complete (bootstrap:840:19)
+#45     _FutureImpl._complete (bootstrap:848:5)
+#46     _FutureImpl._setValue (bootstrap:862:14)
+#47     _CompleterImpl.complete.complete (bootstrap:949:26)
+#48     _FutureImpl._complete (bootstrap:840:19)
+#49     _FutureImpl._complete (bootstrap:848:5)
+#50     _FutureImpl._setValue (bootstrap:862:14)
+#51     _CompleterImpl.complete.complete (bootstrap:949:26)
+#52     _FutureImpl._complete (bootstrap:840:19)
+#53     _FutureImpl._complete (bootstrap:848:5)
+#54     _FutureImpl._setValue (bootstrap:862:14)
+#55     _CompleterImpl.complete (bootstrap:949:26)
+#56     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#57     _FutureImpl._complete (bootstrap:840:19)
+#58     _FutureImpl._complete (bootstrap:848:5)
+#59     _FutureImpl._setValue (bootstrap:862:14)
+#60     _CompleterImpl.complete.complete (bootstrap:949:26)
+#61     _FutureImpl._complete (bootstrap:840:19)
+#62     _FutureImpl._complete (bootstrap:848:5)
+#63     _FutureImpl._setValue (bootstrap:862:14)
+#64     _CompleterImpl.complete (bootstrap:949:26)
+#65     _FutureImpl.transform.<anonymous closure> (bootstrap:887:25)
+#66     _FutureImpl._complete (bootstrap:840:19)
+#67     _FutureImpl._complete (bootstrap:848:5)
+#68     _FutureImpl._setValue (bootstrap:862:14)
+#69     _CompleterImpl.complete (bootstrap:949:26)
+#70     _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:65:27)
+#71     _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [1468 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [605 ms]
+
+---
+build.dart --changed=web\out\main.html
+
+build.dart finished [288 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [254 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [268 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [349 ms]
+
+---
+build.dart --removed=web\out\add_link.html.dart --removed=web\out\editable_label.html.dart --removed=web\out\li...
+
+build.dart finished [293 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [257 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [299 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [449 ms]
+
+---
+build.dart --changed=web\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 352 ms
+build.dart finished [641 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [292 ms]
+
+---
+build.dart --changed=web\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 363 ms
+build.dart finished [644 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [306 ms]
+
+---
+build.dart --changed=web\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 375 ms
+build.dart finished [653 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [935 ms]
+
+---
+build.dart --changed=web\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 373 ms
+build.dart finished [659 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [302 ms]
+
+---
+build.dart --changed=web\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 396 ms
+build.dart finished [692 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [302 ms]
+
+---
+build.dart --changed=web\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 379 ms
+build.dart finished [661 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [314 ms]
+
+---
+build.dart --changed=web\base.css
+
+build.dart finished [299 ms]
+
+---
+build.dart --changed=web\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 379 ms
+build.dart finished [656 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [294 ms]
+
+---
+build.dart --changed=web\add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 366 ms
+build.dart finished [629 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [279 ms]
+
+---
+build.dart --changed=web\add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 370 ms
+build.dart finished [638 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [300 ms]
+
+---
+build.dart --changed=web\link_row.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 373 ms
+build.dart finished [651 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [305 ms]
+
+---
+build.dart --changed=web\link_row.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 377 ms
+build.dart finished [648 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [320 ms]
+
+---
+build.dart --changed=web\link_row.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 376 ms
+build.dart finished [649 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [459 ms]
+
+---
+build.dart --clean
+
+build.dart finished [644 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 368 ms
+build.dart finished [615 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [397 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 419 ms
+build.dart finished [884 ms]
+
+---
+build.dart --changed=web\out\add_link.html.dart --changed=web\out\editable_label.html.dart --changed=web\out\li...
+
+build.dart finished [243 ms]
+
+---
+build.dart 
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [272 ms]
+
+---
+build.dart --changed=pubspec.lock
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [204 ms]
+
+---
+build.dart --clean
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [188 ms]
+
+---
+build.dart 
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [204 ms]
+
+---
+build.dart --changed=pubspec.lock
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [206 ms]
+
+---
+build.dart --changed=web/main.dart --changed=web/model.dart --changed=web/out/add_link.html.dart --changed=web/...
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [216 ms]
+
+---
+build.dart --changed=pubspec.yaml
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [208 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [221 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [250 ms]
+
+---
+build.dart --changed=web/add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 302 ms
+build.dart finished [554 ms]
+
+---
+build.dart --changed=web/out/add_link.html.dart --changed=web/out/editable_label.html.dart --changed=web/out/li...
+
+build.dart finished [261 ms]
+
+---
+build.dart 
+
+build.dart finished [266 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [254 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [240 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [255 ms]
+
+---
+build.dart --changed=web/add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 299 ms
+build.dart finished [555 ms]
+
+---
+build.dart --changed=web/out/add_link.html.dart --changed=web/out/editable_label.html.dart --changed=web/out/li...
+
+build.dart finished [297 ms]
+
+---
+build.dart --changed=web/add_link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 305 ms
+build.dart finished [610 ms]
+
+---
+build.dart --changed=web/out/add_link.html.dart --changed=web/out/editable_label.html.dart --changed=web/out/li...
+
+build.dart finished [272 ms]
+
+---
+build.dart --changed=web/add_link.dart --changed=web/add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 364 ms
+build.dart finished [704 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_label.html.dart --changed=web/out/link_ro...
+
+build.dart finished [226 ms]
+
+---
+build.dart --changed=web/add_link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 319 ms
+build.dart finished [557 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_label.html.dart --changed=web/out/link_ro...
+
+build.dart finished [298 ms]
+
+---
+build.dart --changed=web/editable_lable.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 305 ms
+build.dart finished [628 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_label.html.dart --changed=web/out/link_ro...
+
+build.dart finished [336 ms]
+
+---
+build.dart --changed=web/editable_label.html --changed=web/editable_lable.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 325 ms
+build.dart finished [599 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.htm...
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/link_row.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 318 ms
+build.dart finished [608 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.htm...
+
+build.dart finished [274 ms]
+
+---
+build.dart --changed=web/link_row.dart --changed=web/link_row.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 317 ms
+build.dart finished [605 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [222 ms]
+
+---
+build.dart --removed=web/out/add_link.dart --removed=web/out/add_link.html.dart --removed=web/out/editable_labe...
+
+build.dart finished [261 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [242 ms]
+
+---
+build.dart --changed=web/add_link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 333 ms
+build.dart finished [568 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [283 ms]
+
+---
+build.dart --changed=web/out/main.dart
+
+build.dart finished [228 ms]
+
+---
+build.dart --changed=pubspec.yaml
+
+build.dart finished [229 ms]
+
+---
+build.dart --removed=web/out/add_link.dart --removed=web/out/editable_lable.dart --removed=web/out/link_row.dar...
+
+build.dart finished [273 ms]
+
+---
+build.dart --changed=web/editable_lable.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 329 ms
+build.dart finished [582 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 338 ms
+build.dart finished [586 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [272 ms]
+
+---
+build.dart --changed=web/out/add_link.dart
+
+build.dart finished [237 ms]
+
+---
+build.dart --removed=web/out/add_link.dart --removed=web/out/editable_lable.dart --removed=web/out/link_row.dar...
+
+build.dart finished [295 ms]
+
+---
+build.dart --changed=web/link_row.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 320 ms
+build.dart finished [557 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [318 ms]
+
+---
+build.dart --clean
+
+build.dart finished [240 ms]
+
+---
+build.dart 
+
+build.dart finished [234 ms]
+
+---
+build.dart 
+
+build.dart finished [249 ms]
+
+---
+build.dart --clean
+
+build.dart finished [261 ms]
+
+---
+build.dart 
+
+build.dart finished [247 ms]
+
+---
+build.dart --changed=web/add_link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/add_link.dart","message":"please provide a class definition for AddLinkDiv:\n class AddLink extends WebComponent {\n  Link link;\n  \n  void addTodo(Event e) {\n    e.preventDefault(); // don't submit the form\n    var input = query('#new-todo');\n    var titolo = query('#new-titolo');\n    if ((input.value == '')||(titolo.value == '')) return;\n    app.links.add(new Link(input.value, titolo.value));\n    input.value = '';\n    titolo.value = '';\n  } \n  //bool get editing => _root.query('#label').xtag.editing;\n  //String get _completedClass => link.done ? 'completed' : '';\n  //String get _editingClass => editing ? 'editing' : '';\n}","line":6,"charStart":45,"charEnd":109}}]
+Total time spent on web/main.html                            -- 326 ms
+build.dart finished [569 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 297 ms
+build.dart finished [535 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [227 ms]
+
+---
+build.dart --changed=web/add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/add_link.dart","message":"please provide a class definition for AddLinkDiv:\n class AddLink extends WebComponent {\n  Link link;\n  \n  void addTodo(Event e) {\n    e.preventDefault(); // don't submit the form\n    var input = query('#new-todo');\n    var titolo = query('#new-titolo');\n    if ((input.value == '')||(titolo.value == '')) return;\n    app.links.add(new Link(input.value, titolo.value));\n    input.value = '';\n    titolo.value = '';\n  } \n  //bool get editing => _root.query('#label').xtag.editing;\n  //String get _completedClass => link.done ? 'completed' : '';\n  //String get _editingClass => editing ? 'editing' : '';\n}","line":6,"charStart":45,"charEnd":109}}]
+Total time spent on web/main.html                            -- 318 ms
+build.dart finished [570 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [231 ms]
+
+---
+build.dart --changed=web/add_link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 365 ms
+build.dart finished [601 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [228 ms]
+
+---
+build.dart --changed=web/add_link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 312 ms
+build.dart finished [560 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [231 ms]
+
+---
+build.dart --changed=web/add_link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 316 ms
+build.dart finished [560 ms]
+
+---
+build.dart --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/link_row.dar...
+
+build.dart finished [223 ms]
+
+---
+build.dart --clean
+
+build.dart finished [249 ms]
+
+---
+build.dart 
+
+build.dart finished [230 ms]
+

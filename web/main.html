@@ -35,11 +35,8 @@ BSD-style license that can be found in the LICENSE file.
       <!--<input id="toggle-all" type="checkbox" bind-checked="app.allChecked">-->
       <!--<label for="toggle-all"></label>-->
       <ul id="todo-list">
-        <template iterate="x in app.links">
-          
-            <x-link-row link="{{x}}"> </x-link-row>
-          
-            
+        <template iterate="x in app.links">          
+            <x-link-row link="{{x}}"> </x-link-row>       
         </template>
       </ul>
     </section>
@@ -59,17 +56,6 @@ BSD-style license that can be found in the LICENSE file.
       </footer>
     </template>-->
   </section>
-  <!--<footer id="info">
-    <p>Double-click to edit a todo.</p>
-    <p>Credits: the <a href="http://www.dartlang.org">Dart</a> team.</p>
-    <p>
-      Learn more about
-      <a href="https://www.dartlang.org/articles/dart-web-components/">Dart + Web Components</a>
-      or
-      <a href="https://github.com/dart-lang/web-ui/tree/master/example/todomvc">view the source</a>.
-    </p>
-    <p>Part of <a href="http://todomvc.com">TodoMVC</a>.</p>
-  </footer>-->
   <script type="application/dart" src="main.dart"></script>
 </body>
 </html>

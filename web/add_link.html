@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-<element name="x-addLink-div" extends="div" apply-author-styles>
+<element name="x-addLink" extends="div" apply-author-styles constructor="AddLink">
   <template>
     <div class="add-item">
       <input id="new-todo" placeholder="Link" autofocus>
@@ -12,31 +12,10 @@
       <!--<button class="unread" on-click="addTodo($event)">Add Link </button>-->
     </div>
   </template>
-  <script type="application/dart">
+  <script type="application/dart" src="add_link.dart">
     //perchè cazzo non funziona?
   
-    import 'package:web_ui/web_ui.dart';
-    import 'model.dart';
-    import 'dart:html';
-  
-    class AddLinkDiv extends WebComponent {
-      //Link link;
-      
-      /*void addTodo(Event e) {
-        e.preventDefault(); // don't submit the form
-        var input = query('#new-todo');
-        var titolo = query('#new-titolo');
-        if ((input.value == '')||(titolo.value == '')) return;
-        app.links.add(new Link(input.value, titolo.value));
-        input.value = '';
-        titolo.value = '';
-      }*/
-      
-     
-      //bool get editing => _root.query('#label').xtag.editing;
-      //String get _completedClass => link.done ? 'completed' : '';
-      //String get _editingClass => editing ? 'editing' : '';
-    }
+    
   </script>
 </element>
 </body>

@@ -15,27 +15,18 @@
 .white_content {
    display: block;
    position: absolute;
-   
    top: 15%;
    left: -70%;
    width: 70%;
-   height: 70%;
-   
-   
+   height: 70%;   
    background-color: white;
    z-index:2;
-   overflow: auto;
- 
-    
+   overflow: auto;    
 }
 
-
-.white_contentTransition {
-   
-   
+.white_contentTransition {   
   transition:width 2s, height 2s;
     -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
     -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
     -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
-  
 }
