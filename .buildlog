@@ -1844,3 +1844,24 @@ build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_
 
 build.dart finished [410 ms]
 
+---
+build.dart --machine --removed=pubspec.lock
+Unable to open file: C:/Users/Fabio/Documents/GitHub/notes/packages/web_ui/component_build.dart'file:///C:/Users/Fabio/Documents/GitHub/notes/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [858 ms]
+
+---
+build.dart --machine --changed=web\out\Nuovo OpenDocument - Foglio elettronico.ods
+Unable to open file: C:/Users/Fabio/Documents/GitHub/notes/packages/web_ui/component_build.dart'file:///C:/Users/Fabio/Documents/GitHub/notes/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [468 ms]
+
+---
+build.dart --machine --removed=web\out\Nuovo OpenDocument - Foglio elettronico.ods
+Unable to open file: C:/Users/Fabio/Documents/GitHub/notes/packages/web_ui/component_build.dart'file:///C:/Users/Fabio/Documents/GitHub/notes/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [173 ms]
+
