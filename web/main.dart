@@ -56,7 +56,7 @@ class ModalDialog {
   final IFrameElement _preview;
 //  final InputElement _title;
 
-  ModalDialog([String message]) :
+  ModalDialog({String message}) :
     //constructor pre-init
     _content = new Element.tag('div'),
     _previewDiv = new Element.tag('div'),

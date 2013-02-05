@@ -1437,3 +1437,410 @@ build.dart
 
 build.dart finished [230 ms]
 
+---
+build.dart --machine --full
+Unable to open file: C:/Users/Fabio/Documents/GitHub/notes/packages/web_ui/component_build.dart'file:///C:/Users/Fabio/Documents/GitHub/notes/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [2088 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1894 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [412 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [355 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [381 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1616 ms]
+
+---
+build.dart --machine --changed=webapp\config.dart --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 423 ms
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [440 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 377 ms
+build.dart finished [1093 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [376 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 304 ms
+build.dart finished [750 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [371 ms]
+
+---
+build.dart --machine --changed=webapp\config.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 303 ms
+build.dart finished [669 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [328 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 309 ms
+build.dart finished [752 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [329 ms]
+
+---
+build.dart --machine --changed=web\add_link.dart --changed=web\editable_lable.dart --changed=web\main.dart --ch...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 319 ms
+build.dart finished [660 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [435 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 308 ms
+build.dart finished [691 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [497 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 321 ms
+build.dart finished [767 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [390 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 277 ms
+build.dart finished [606 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [425 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 313 ms
+build.dart finished [689 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [327 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 320 ms
+build.dart finished [721 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [343 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 336 ms
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [735 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 304 ms
+build.dart finished [780 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [342 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 300 ms
+build.dart finished [657 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [358 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 311 ms
+build.dart finished [703 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [416 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 301 ms
+build.dart finished [710 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [342 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 301 ms
+build.dart finished [625 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [309 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 297 ms
+build.dart finished [645 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [316 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [442 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 388 ms
+build.dart finished [866 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [434 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 286 ms
+build.dart finished [691 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [503 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 297 ms
+build.dart finished [652 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [378 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 294 ms
+build.dart finished [686 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [485 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 310 ms
+build.dart finished [713 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [382 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 285 ms
+build.dart finished [717 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [363 ms]
+
+---
+build.dart --machine --changed=blog.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 375 ms
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [393 ms]
+
+---
+build.dart --machine --changed=web\index.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 313 ms
+build.dart finished [701 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [369 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 324 ms
+build.dart finished [808 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [367 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 357 ms
+build.dart finished [1043 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [465 ms]
+
+---
+build.dart --machine --changed=blog.html --changed=pubspec.lock --changed=web\index.html --changed=web\out\add_...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 363 ms
+build.dart finished [1265 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [389 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [672 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1019 ms]
+
+---
+build.dart --machine --removed=pubspec.lock
+
+build.dart finished [374 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [497 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [358 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/add_link.html","message":"script tag has \"src\" attribute and also has script text.","line":15,"charStart":437,"charEnd":489}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"custom element with tag name x-addlink-div not found.","line":23,"charStart":690,"charEnd":705}}]
+Total time spent on web/main.html                            -- 285 ms
+build.dart finished [753 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [388 ms]
+
+---
+build.dart --machine --changed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/add_link.html","message":"script tag has \"src\" attribute and also has script text.","line":15,"charStart":437,"charEnd":489}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"custom element with tag name x-addlink-div not found.","line":23,"charStart":690,"charEnd":705}}]
+Total time spent on web/main.html                            -- 292 ms
+build.dart finished [711 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [410 ms]
+

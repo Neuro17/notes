@@ -5,3 +5,5 @@ dependencies:
   web_ui: any
   browser: any
   js: any
+  stream: any
+  objectory: any

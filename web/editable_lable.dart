@@ -15,13 +15,13 @@ import 'package:web_ui/web_ui.dart';
     String titolo; // da usare
 
     InputElement get _editBox => document.query('#edit');
-    
+
 
     void created() {
       super.created();
       editing = false;
       value = '';
-      
+
     }
 
     void edit() {
@@ -39,7 +39,7 @@ import 'package:web_ui/web_ui.dart';
       e.preventDefault(); // don't submit the form
       if (!editing) return; // bail if user canceled
       value = _editBox.value;
-      
+
       editing = false;
     }
 
