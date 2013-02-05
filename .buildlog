@@ -1865,3 +1865,44 @@ import 'package:web_ui/component_build.dart';
 ^
 build.dart finished [173 ms]
 
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1006 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [484 ms]
+
+---
+build.dart --machine --changed=web\webapp\config.dart --changed=web\webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/add_link.html","message":"script tag has \"src\" attribute and also has script text.","line":15,"charStart":437,"charEnd":489}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"custom element with tag name x-addlink-div not found.","line":23,"charStart":690,"charEnd":705}}]
+Total time spent on web/main.html                            -- 555 ms
+build.dart finished [1223 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [582 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [615 ms]
+
+---
+build.dart --machine --removed=webapp\config.dart --removed=webapp\main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/add_link.html","message":"script tag has \"src\" attribute and also has script text.","line":15,"charStart":437,"charEnd":489}}]
+[{"method":"warning","params":{"file":"web/main.html","message":"custom element with tag name x-addlink-div not found.","line":23,"charStart":690,"charEnd":705}}]
+Total time spent on web/main.html                            -- 325 ms
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=web\out\add_link.dart --changed=web\out\editable_lable.dart --changed=web\out\li...
+
+build.dart finished [402 ms]
+
