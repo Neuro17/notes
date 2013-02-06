@@ -1,33 +1,32 @@
 <!DOCTYPE html>
+<!-- This file was auto-generated from web/main.html. -->
 <!--
 Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file
 for details. All rights reserved. Use of this source code is governed by a
 BSD-style license that can be found in the LICENSE file.
--->
-<html lang="en">
-<head>
+--><html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <!--<link rel="components" href="router_options.html">-->
-  <link rel="components" href="link_row.html">
-  <link rel="components" href="add_link.html">
-  <link rel="stylesheet" href="base.css">
+  
+  
+  <link rel="stylesheet" href="../base.css">
   
   <title>dart - TodoMVC</title>
 </head>
 <body>
   <section id="todoapp">
     <header id="header">
-      <h1 class='title'>notes</h1>
+      <h1 class="title">notes</h1>
       
-      <x-addlink></x-addlink>
+      <x-addlink id="__e-0"></x-addlink>
       
       <!--<form on-submit="addTodo($event)">-->
         <!--<input id="new-todo" placeholder="Link" autofocus>
                
         <input id="new-titolo" placeholder="Title">
         <button class="unread" on-click="addTodo($event)">+ Add Link</button>-->
-        <button class="unread" id="createNewLink" on-click="addTodo($event)">Create new link</button>
+        <button class="unread" id="createNewLink">Create new link</button>
         <button class="unread" id="refresh">Refresh</button>
       <!--</form>-->
     </header>
@@ -35,9 +34,7 @@ BSD-style license that can be found in the LICENSE file.
       <!--<input id="toggle-all" type="checkbox" bind-checked="app.allChecked">-->
       <!--<label for="toggle-all"></label>-->
       <ul id="todo-list">
-        <template iterate="x in app.links">          
-            <x-link-row link="{{x}}"> </x-link-row>       
-        </template>
+        <template id="__e-2" style="display:none"></template>
       </ul>
     </section>
     <!--<template if="app.todos.length > 0">
@@ -56,6 +53,8 @@ BSD-style license that can be found in the LICENSE file.
       </footer>
     </template>-->
   </section>
-  <script type="application/dart" src="main.dart"></script>
-</body>
-</html>
+  
+
+
+<script type="text/javascript" src="packages/browser/dart.js"></script>
+<script type="application/dart" src="main.html_bootstrap.dart"></script></body></html>
