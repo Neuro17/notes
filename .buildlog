@@ -2058,3 +2058,25 @@ build.dart --machine --changed=web/out/add_link.dart --changed=web/out/editable_
 
 build.dart finished [206 ms]
 
+---
+build.dart --machine --changed=blog.html --changed=pubspec.yaml --changed=web/add_link.dart --changed=web/add_l...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 304 ms
+build.dart finished [510 ms]
+
+---
+build.dart --machine --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/li...
+
+build.dart finished [246 ms]
+
+---
+build.dart --machine --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 306 ms
+build.dart finished [523 ms]
+
+---
+build.dart --machine --changed=web/out/add_link.dart --changed=web/out/editable_lable.dart --changed=web/out/li...
+
+build.dart finished [214 ms]
+
